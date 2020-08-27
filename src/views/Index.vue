@@ -1,12 +1,21 @@
 <template>
     <div class="v-index-page">
-        <div class="desc">本项目为模板项目，主要包含基本的框架。可以零基础直接进行插件的开发。</div>
+        <div class="desc">本项目为iView模板项目，主要包含基本的框架。</div>
+        <Divider>iView 组件演示</Divider>
+        <Button>按钮</Button>
+        <Icon type="ios-checkmark" size="30" />
     </div>
 </template>
 
 <script>
+import { Button, Icon, Divider } from 'view-design';
 export default {
     name: 'Index',
+    components: {
+        Button,
+        Icon,
+        Divider,
+    },
 };
 </script>
 

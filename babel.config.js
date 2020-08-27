@@ -13,6 +13,17 @@ const presets = [
     ],
 ];
 
+const plugins = [
+    [
+        'import',
+        {
+            libraryName: 'view-design',
+            libraryDirectory: 'src/components',
+        }
+    ]
+];
+
 module.exports = {
     presets,
+    plugins,
 };

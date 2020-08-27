@@ -5,6 +5,7 @@
 </template>
 <script>
 import '@styles/main.less';
+import 'view-design/dist/styles/iview.css';
 import ScrollBar from '@components/ScrollBar';
 export default {
     name: 'index',
