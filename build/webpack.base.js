@@ -16,7 +16,7 @@ module.exports = {
     entry: {
         index: path.resolve(__dirname, '../src/index.js'),
     },
-    target: 'node',
+    target: 'electron-renderer',
     module: {
         rules: [
             {
