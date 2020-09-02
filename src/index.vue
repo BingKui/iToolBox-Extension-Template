@@ -5,6 +5,7 @@
 </template>
 <script>
 import '@styles/main.less';
+import '@styles/dark.less';
 import ScrollBar from '@components/ScrollBar';
 export default {
     name: 'index',
