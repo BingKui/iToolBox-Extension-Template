@@ -19,10 +19,26 @@
         background-color: @dark-mode-item-background !important;
         border-color: @gray-darker !important;
         color: @dark-title-color !important;
+        &::-webkit-input-placeholder{
+            color: rgba(255 ,255 ,255 , .15);
+        }
     }
     .ivu-select-dropdown,
     .ivu-select-dropdown .ivu-select-item {
         background-color: @dark-mode-item-background !important;
         border-color: @gray-darker !important;
+    }
+    .ivu-divider {
+        .ivu-divider-inner-text{
+            color: @dark-title-color;
+        }
+    }
+    .ivu-divider-horizontal.ivu-divider-with-text-center:after,
+    .ivu-divider-horizontal.ivu-divider-with-text-center:before,
+    .ivu-divider-horizontal.ivu-divider-with-text-left:after,
+    .ivu-divider-horizontal.ivu-divider-with-text-left:before,
+    .ivu-divider-horizontal.ivu-divider-with-text-right:after,
+    .ivu-divider-horizontal.ivu-divider-with-text-right:before {
+        border-color: @gray-darker;
     }
 }
