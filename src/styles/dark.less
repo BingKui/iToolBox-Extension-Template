@@ -3,4 +3,26 @@
     .v-main-scroll {
         background-color: @dark-mode-background;
     }
+    .ivu-btn.ivu-btn-default {
+        background-color: @dark-mode-item-background;
+        border-color: @dark-mode-item-background;
+        color: rgba(255 ,255 ,255 , .4);
+        &:hover,
+        &:active {
+            border-color: @gray-darker;
+            background-color: @gray-darker;
+            color: rgba(255 ,255 ,255 , .7);
+        }
+    }
+    .ivu-input,
+    .ivu-select .ivu-select-selection {
+        background-color: @dark-mode-item-background !important;
+        border-color: @gray-darker !important;
+        color: @dark-title-color !important;
+    }
+    .ivu-select-dropdown,
+    .ivu-select-dropdown .ivu-select-item {
+        background-color: @dark-mode-item-background !important;
+        border-color: @gray-darker !important;
+    }
 }
